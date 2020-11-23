@@ -62,7 +62,8 @@ NeoBundle 'tpope/vim-surround'
 " Plugin 'davidhalter/jedi-vim'
 NeoBundle 'XadillaX/json-formatter.vim'
 NeoBundle 'tmhedberg/SimpylFold'
-NeoBundle 'neoclide/coc.nvim', 'release', { 'build': { 'others': 'git checkout release' } }
+" NeoBundle 'neoclide/coc.nvim', 'release', { 'build': { 'others': 'git checkout release' } }
+NeoBundle 'neoclide/coc.nvim'
 " Plugin 'w0rp/ale' 
 " NeoBundle 'valloric/youcompleteme'
 " NeoBundle 'scrooloose/nerdtree'
