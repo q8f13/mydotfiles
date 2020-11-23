@@ -1,0 +1,25 @@
+[user]
+	email = dustfall@gmail.com
+	name = q8f13
+[gui]
+	encoding = utf-8
+[credential]
+	helper = wincred
+[alias]
+	ll = log --oneline --graph --decorate --all
+	ai = add -i
+	gl = log --pretty=oneline
+	ba = branch --all
+	st = status
+	co = checkout
+	cm = commit -m
+	cb = checkout -b
+    rp = log --pretty='%ad: %s' --date=short
+[diff]
+	tool = vimdiff
+[http]
+    ; proxy = http://127.0.0.1:7890
+    ; proxy = socks5://127.0.0.1:7891
+	; proxy = socks://192.168.0.126:1080
+[difftool]
+	prompt = false
