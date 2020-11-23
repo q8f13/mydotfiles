@@ -13,6 +13,7 @@ alias vrc='start gvim ~/_vimrc'
 alias g='git'
 alias mkd='mkdir -pv'
 alias ll='ls -hN --color=auto --group-directories-first'
+alias lls='ls -hN --color=auto --group-directories-first --sort=extension'
 
 Z=/c/Users/jrct302/Desktop
 HOST=/c/Windows/System32/drivers/etc/hosts

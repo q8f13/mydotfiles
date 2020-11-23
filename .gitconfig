@@ -23,3 +23,5 @@
 	; proxy = socks://192.168.0.126:1080
 [difftool]
 	prompt = false
+[core]
+	askpass = git-gui--askpass

@@ -1,0 +1,29 @@
+#         ___   __ _ _____         _       _  ___
+#   __ _ ( _ ) / _/ |___ /__      _(_)_ __ / |/ _ \
+#  / _` |/ _ \| |_| | |_ \\ \ /\ / | | '_ \| | | | |
+# | (_| | (_) |  _| |___) \ V  V /| | | | | | |_| |
+#  \__, |\___/|_| |_|____(_\_/\_/ |_|_| |_|_|\___/
+#     |_|
+# bashrc for mingw64@win10@laptop
+
+function bv() { nvim-qt "$@" > /dev/null & }
+
+alias v='nvim-qt'
+alias vb='nvim-qt ~/.bashrc'
+alias sb='source ~/.bashrc'
+alias vrc='start nvim-qt ~/_vimrc'
+alias g='git'
+alias mkd='mkdir -pv'
+alias ll='ls -hN --color=auto --group-directories-first'
+alias lls='ls -hN --color=auto --group-directories-first --sort=extension'
+
+Z=/c/Users/Dustfall/Desktop
+HOST=/c/Windows/System32/drivers/etc/hosts
+REPO=/c/Projects/repos
+TS=/c/Tools
+DL=/c/Users/Dustfall/Downloads
+PROJ=/c/Projects
+COL=/c/Collections
+PKG=/c/Packages
+DOC=/c/Users/Dustfall/Documents
+SYNC=/c/Users/Dustfall/Nextcloud/Sync
