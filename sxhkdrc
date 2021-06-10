@@ -137,4 +137,8 @@ super + {F9,F10}
 # screenshot tools
 super + F4
     maim -s -m 1 ~/Screenshots/$(date +%s).png && dunstify "screenshot saved: ~/Screenshots/$(date +%s).png"
+
+super + alt + F4
+    maim -s -m 1 /dev/stdout | copyq copy image/png - && dunstify "screenshot saved to clipboard"
+
 xrandr --output eDP-1 --primary --auto --output HDMI-1 --mode 3440x1440 --right-of eDP-1

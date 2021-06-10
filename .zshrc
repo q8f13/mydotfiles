@@ -18,14 +18,18 @@ prompt redhat
 alias ls='ls --color=auto'
 
 # from bash@windows
-alias v='nvim-qt'
+alias v='nvim'
+alias vv='nvim-qt'
 alias vz='nvim ~/.zshrc'
 alias sz='source ~/.zshrc'
+alias sv='sudo nvim'
 alias vrc='nvim ~/_vimrc'
 alias g='git'
 alias mkd='mkdir -pv'
 alias ll='ls -hN --color=auto --group-directories-first'
 alias lls='ls -hN --color=auto --group-directories-first --sort=extension'
+alias rr='ranger'
+alias srr='sudo ranger'
 
 # tweak cfg
 alias vkey='nvim ~/.config/sxhkd/sxhkdrc && echo "press Super+Esc to reload sxhkd"'
